@@ -134,6 +134,7 @@ celerybeat.pid
 
 # Environments
 .env
+.env.local
 .venv
 env/
 venv/
@@ -192,5 +193,21 @@ sketch
 .netlify
 build/
 dist/
- node_modules/
+node_modules/
 .netlify
+
+# Dependencies
+npm-debug.log*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Render specific
+.render-buildpacks
+
+node_modules
