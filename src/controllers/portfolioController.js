@@ -10,7 +10,7 @@ const portfolioController = {
                 'Innovating Daily'
             ],
             about: {
-                description: "I'm a passionate tech innovator with expertise in AI and IoT solutions. With a proven track record in developing cutting-edge applications and a commitment to technical education, I bridge the gap between complex technology and practical implementation. My approach combines analytical thinking with creative problem-solving to deliver impactful solutions.",
+                description: "Hi, I'm Bantu Nagarjuna, a passionate and driven tech enthusiast with hands-on experience in Artificial Intelligence, IoT, and Web Development. I recently completed my Research Internship at IIT Kharagpur and am a proud Smart India Hackathon 2022 Finalist. I enjoy building real-world solutions using cutting-edge technologies and continuously explore new ways to innovate and learn.",
                 achievements: [
                     {
                         title: "Best IoT Project",
