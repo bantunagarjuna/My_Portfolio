@@ -1,35 +1,22 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "A basic portfolio website showcasing projects and skills.",
+  "description": "Portfolio website",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "build": "node scripts/build.js",
-    "clean": "rimraf build"
+    "build": "node src/build.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "dependencies": {
-    "ejs": "^3.1.9",
-    "express": "^4.21.2"
-  },
-  "devDependencies": {
-    "fs-extra": "^11.3.0",
-    "nodemon": "^2.0.15",
-    "rimraf": "^3.0.2"
-  },
-  "author": "Bantu Nagarjuna",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bantunagarjuna/My_Portfolio.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/bantunagarjuna/My_Portfolio/issues"
-  },
-  "homepage": "https://github.com/bantunagarjuna/My_Portfolio#readme"
+  }
 }
