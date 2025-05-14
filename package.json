@@ -6,15 +6,17 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "build": "npm install && mkdir -p build && cp -r public/* build/ && cp -r views build/",
+    "build": "netlify deploy --prod",
     "clean": "rimraf build",
     "prebuild": "npm run clean"
   },
   "dependencies": {
     "@netlify/functions": "^1.0.0",
     "ejs": "^3.1.9",
-    "express": "^4.17.1",
-    "serverless-http": "^3.1.1"
+    "express": "^4.21.2",
+    "netlify-cli": "^21.3.0",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
   },
   "devDependencies": {
     "fs-extra": "^11.3.0",
@@ -22,5 +24,14 @@
     "rimraf": "^3.0.2"
   },
   "author": "Bantu Nagarjuna",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bantunagarjuna/My_Portfolio.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/bantunagarjuna/My_Portfolio/issues"
+  },
+  "homepage": "https://github.com/bantunagarjuna/My_Portfolio#readme"
 }

@@ -192,4 +192,5 @@ sketch
 .netlify
 build/
 dist/
- 
+ node_modules/
+.netlify
