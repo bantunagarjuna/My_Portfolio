@@ -3,7 +3,7 @@ const portfolioController = {
         res.render('index', {
             title: 'Bantu Nagarjuna - Portfolio',
             name: 'Bantu Nagarjuna',
-            role: 'AI | IoT | Full Stack | DSA',
+            role: 'AI | IoT | NodeJS | DSA',
             taglines: [
                 'Building Smart Systems',
                 'Sharing Tech Stories',
@@ -13,8 +13,8 @@ const portfolioController = {
                 description: "Hi, I'm Bantu Nagarjuna, a passionate and driven tech enthusiast with hands-on experience in Artificial Intelligence, IoT, and Web Development. I recently completed my Research Internship at IIT Kharagpur and am a proud Smart India Hackathon 2022 Finalist. I enjoy building real-world solutions using cutting-edge technologies and continuously explore new ways to innovate and learn.",
                 achievements: [
                     {
-                        title: "Best IoT Project",
-                        description: "First place in National IoT Hackathon 2023",
+                        title: "National Level Hackathon",
+                        description: "Finalist in National SIH22 Hackathon 2022",
                         icon: "🏆"
                     },
                     {
@@ -44,16 +44,8 @@ const portfolioController = {
                             icon: '<i class="fab fa-python"></i>'
                         },
                         {
-                            name: "JavaScript",
-                            icon: '<i class="fab fa-js"></i>'
-                        },
-                        {
                             name: "Node.js",
                             icon: '<i class="fab fa-node-js"></i>'
-                        },
-                        {
-                            name: "React",
-                            icon: '<i class="fab fa-react"></i>'
                         },
                         {
                             name: "RESTful API",
